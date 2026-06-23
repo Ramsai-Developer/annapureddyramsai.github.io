@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annapureddy Ramsai | Marketing Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero h2{
+    font-size:1.4rem;
+    font-weight:300;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:#fff;
+    color:#1e3c72;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    z-index:100;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    list-style:none;
+}
+
+nav ul li{
+    margin:15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.2rem;
+    color:#1e3c72;
+}
+
+.about,
+.contact{
+    max-width:1000px;
+    margin:auto;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+
+.skill{
+    background:#1e3c72;
+    color:white;
+    padding:10px 18px;
+    border-radius:25px;
+}
+
+.project-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.project-card ul{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.contact-info{
+    text-align:center;
+}
+
+.contact-info p{
+    margin:10px 0;
+}
+
+footer{
+    background:#1e3c72;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .hero h1{
+        font-size:2.2rem;
+    }
+
+    .hero h2{
+        font-size:1.1rem;
+    }
+
+    section{
+        padding:60px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+<h1>Annapureddy Ramsai</h1>
+<h2>MBA Marketing Graduate</h2>
+
+<p>
+Results-driven and creative MBA (Marketing) graduate with strong knowledge in
+brand management, digital marketing, consumer behavior, and market research.
+Passionate about building impactful marketing strategies and enhancing customer engagement.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+</div>
+</header>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section id="about">
+<div class="section-title">
+<h2>About Me</h2>
+</div>
+
+<div class="about">
+<p>
+I am an MBA graduate specializing in Marketing Management from Osmania University.
+I have a strong interest in Brand Management, Digital Marketing, Customer Service,
+Market Research, and Project Management. I enjoy analyzing consumer behavior,
+developing innovative marketing ideas, and helping businesses strengthen their market presence.
+</p>
+</div>
+</section>
+
+<section id="education">
+<div class="section-title">
+<h2>Education</h2>
+</div>
+
+<div class="card-container">
+
+<div class="card">
+<h3>MBA - Marketing Management</h3>
+<p>Osmania University</p>
+<p>Omega PG College</p>
+<p>2023 – 2025</p>
+</div>
+
+<div class="card">
+<h3>Bachelor of Computer Science</h3>
+<p>Osmania University</p>
+<p>2019 – 2022</p>
+</div>
+
+<div class="card">
+<h3>Intermediate (MPC)</h3>
+<p>Little Flowers Junior College</p>
+<p>2017 – 2019</p>
+</div>
+
+</div>
+</section>
+
+<section id="skills">
+<div class="section-title">
+<h2>Skills</h2>
+</div>
+
+<div class="skills">
+<div class="skill">Digital Marketing</div>
+<div class="skill">Market Research</div>
+<div class="skill">Brand Management</div>
+<div class="skill">Consumer Behaviour</div>
+<div class="skill">Microsoft Excel</div>
+<div class="skill">Microsoft Word</div>
+<div class="skill">PowerPoint</div>
+<div class="skill">Communication</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Project Management</div>
+<div class="skill">Customer Engagement</div>
+<div class="skill">Data Analysis</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="section-title">
+<h2>Featured Project</h2>
+</div>
+
+<div class="project-card">
+<h3>Marketing Research Project – Bharti Airtel Ltd</h3>
+<p><strong>University:</strong> Osmania University</p>
+
+<ul>
+<li>Conducted marketing research on sales promotion effectiveness.</li>
+<li>Analyzed brand visibility and customer engagement.</li>
+<li>Collected consumer insights through surveys and interviews.</li>
+<li>Benchmarked Airtel promotions against competitors.</li>
+<li>Developed recommendations to improve campaign ROI.</li>
+</ul>
+</div>
+</section>
+
+<section id="certifications">
+<div class="section-title">
+<h2>Certifications</h2>
+</div>
+
+<div class="card-container">
+<div class="card">
+<h3>Microsoft Office Specialist</h3>
+<p>Excel, Word & PowerPoint</p>
+</div>
+
+<div class="card">
+<h3>Sales Promotion & Brand Development</h3>
+<p>Jan 2025 – Apr 2025</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="section-title">
+<h2>Contact</h2>
+</div>
+
+<div class="contact-info">
+<p><strong>Email:</strong> annapureddyramsai@gmail.com</p>
+<p><strong>Phone:</strong> +91 9951760292</p>
+<p><strong>Location:</strong> Hyderabad, Telangana, India</p>
+<p><strong>Languages:</strong> English, Telugu, Hindi</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Annapureddy Ramsai | Marketing Portfolio</p>
+</footer>
+
+</body>
+</html>
